@@ -1,0 +1,14 @@
+{
+  "name": "nova-studio-contact",
+  "version": "1.0.0",
+  "description": "Full-stack contact app: Node/Express backend + real file-based database + pure HTML/CSS/JS frontend with email notification.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+      "start": "node server.js"
+  },
+  "dependencies": {
+      "express": "^4.19.2",
+       "nodemailer": "^6.9.13"
+  }
+} 
